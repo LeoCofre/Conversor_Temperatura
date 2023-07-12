@@ -10,13 +10,13 @@ fun main() {
     println("Ingresa el valor")
     val input= readLine()!!.toDouble()
 
-    val fahrentheit = ((9.0/5.0) * input) + 32
-    println("Fahrenheit: $fahrentheit")
+    val celciusToFahrentheit = ((9.0/5.0) * input) + 32
+    println("Fahrenheit: $celciusToFahrentheit")
 
-    val kelvin = input + 273.15
-    println("Kelvin: $kelvin")
+    val kelvinToCelcius = input + 273.15
+    println("Kelvin: $kelvinToCelcius")
 
-    val fahrentheitTokelvin =  5.0/9.0 * (fahrentheit - 32) + 273.15
+    val fahrentheitTokelvin =  5.0/9.0 * (celciusToFahrentheit - 32) + 273.15
     println("Fahrenheit a kelvin $fahrentheitTokelvin")
 
 }
